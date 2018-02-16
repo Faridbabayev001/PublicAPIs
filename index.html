@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Search Public APIs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Public APIs">
+	<meta name="description" content="Search Public APIs">
+	<meta name="image" content="https://faridbabayev001.github.io/PublicAPIs/img/publicapi.png">
+	<meta name="keywords" content="api,API,Public,search api">
+	<meta property="og:title" content="Public APIs">
+	<meta property="og:description" content="Search Public APIs">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="https://faridbabayev001.github.io/PublicAPIs/img/publicapi.png">
+	<meta name="author" content="Farid Babayev">
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    
+</head>
+
+<body>
+    <section id="wrapper">
+        <h1>Search Public APIs</h1>
+        <a href="https://github.com/Faridbabayev001/PublicAPIs" target="_blank">Source Code</a>
+        <div id="main">
+            <form id="searchForm">
+                <input type="text" id="search">
+                <input type="submit" class="solid" value="Search">
+            </form>
+        </div>
+        <!-- Result  -->
+        <h2 class="errorFiled" style="display:none">No Result for "<span></span>"</h2>
+        <!--main-->
+        <table id="myTable" style="display:none">
+            <thead>
+                <tr class="header">
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Auth</th>
+                    <th>Https</th>
+                    <th>Category</th>
+                    <th>Cors</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </section>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js'></script>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
