@@ -8,7 +8,7 @@ html, body
 }
 
 html	{
-	background: #f8f4e8 url("bg_tile.jpg") left top repeat;
+	background: #f8f4e8;
 }
 
 body	{	
@@ -16,7 +16,7 @@ body	{
 }
 
 #wrapper	{
-	width: 430px;
+	width: 500px;
 	margin: 50px auto;
 }
 	
